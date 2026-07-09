@@ -1,0 +1,46 @@
+{
+  "login_data": [
+    {
+      "username": "Admin",
+      "password": "admin123",
+      "expected": "dashboard",
+      "status": "Pass"
+    },
+    {
+      "username": "Admin123",
+      "password": "admin123",
+      "expected": "Invalid credentials",
+      "status": "Fail"
+    },
+    {
+      "username": "Admin",
+      "password": "WrongPassword",
+      "expected": "Invalid credentials",
+      "status": "Fail"
+    },
+    {
+      "username": "WrongUser",
+      "password": "WrongPassword",
+      "expected": "Invalid credentials",
+      "status": "Fail"
+    },
+    {
+      "username": "",
+      "password": "admin123",
+      "expected": "Required",
+      "status": "Required"
+    },
+    {
+      "username": "Admin",
+      "password": "",
+      "expected": "Required",
+      "status": "Required"
+    },
+    {
+      "username": "",
+      "password": "",
+      "expected": "Required",
+      "status": "Required"
+    }
+  ]
+}

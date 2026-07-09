@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Reports
+Reports/
+Logs/
+Screenshots/
+allure-results/
+allure-report/
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+output.txt
