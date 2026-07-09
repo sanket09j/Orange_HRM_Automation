@@ -267,12 +267,24 @@ The following enhancements can be added in the future:
 
 # Screenshots
 
-> Add the following screenshots after uploading them to GitHub:
+OrangeHRM Automation Framework
 
-- Project Structure
-- Jenkins Successful Build
-- HTML Report
-- Allure Report
+Project Overview
+...
+
+Screenshots
+
+Project Structure
+![Project Structure](Images/Project_structure.png)
+
+Jenkins Successful Build
+![Jenkins Build](Images/Jenkins_build.png)
+
+HTML Report
+![HTML Report](Images/HTML_report.png)
+
+Allure Report
+![Allure Report](Images/Allure_report.png)
 
 ---
 
